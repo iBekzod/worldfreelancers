@@ -48903,15 +48903,27 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/components.scss":
+/*!****************************************!*\
+  !*** ./resources/sass/components.scss ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ 0:
-/*!*************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ***!
-  \*************************************************************/
+/*!**********************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/components.scss ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! D:\Komputer\my_programs\xamp\htdocs\worldfreelancers\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\Komputer\my_programs\xamp\htdocs\worldfreelancers\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\Komputer\my_programs\xamp\htdocs\worldfreelancers\resources\sass\app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! D:\Komputer\my_programs\xamp\htdocs\worldfreelancers\resources\sass\components.scss */"./resources/sass/components.scss");
 
 
 /***/ })

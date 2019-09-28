@@ -1,22 +1,58 @@
-
-.g_font{
-    font: 15px arial, sans-serif;
-}
-.g_border{
-    border:3px solid red;
-    border-radius: 8px;
-}
-.g_margin{
-    margin: 25px 5px 25px 5px;
-}
-.g_padding{
-    padding: 25px 30px 25px 30px;
-}
+.g_button_empty:hover,
+.g_button_empty:active,
+.g_button_empty,
 .g_button_filled {
-
-    /*background-color:#1b4b72;*/
+  font: 15px Helvetica, sans-serif;
 }
-.g_button_empty{
 
+.g_button_empty:hover,
+.g_button_empty:active,
+.g_button_empty {
+  border: 3px solid #3C9A91;
+}
+
+.g_button_filled {
+  border: none;
+}
+
+.g_button_empty:hover,
+.g_button_empty:active,
+.g_button_empty,
+.g_button_filled {
+  border-radius: 8px;
+}
+
+.g_button_empty:hover,
+.g_button_empty:active,
+.g_button_empty,
+.g_button_filled {
+  margin: 20px 5px 20px 5px;
+}
+
+.g_button_empty:hover,
+.g_button_empty:active,
+.g_button_empty,
+.g_button_filled {
+  padding: 20px 30px 20px 30px;
+}
+
+.g_button_filled {
+  background-color: #3C9A91;
+  color: #FFFFFF;
+}
+
+.g_button_empty {
+  background-color: #FFFFFF;
+  color: #3C9A91;
+}
+
+.g_button_empty:active {
+  background-color: #3C9A91;
+  color: #FFFFFF;
+}
+
+.g_button_empty:hover {
+  background-color: #3C9A91;
+  color: #FFFFFF;
 }
 

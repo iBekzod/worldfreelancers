@@ -1,0 +1,83 @@
+//Font
+$font-stack: Helvetica, sans-serif;
+//Colors
+$g_dark_color: #266467;
+$g_simple_color: #3C9A91;
+$g_highlighting_color: #B2DFDB;
+$g_low_effect_color: #CCCCCC;
+$g_bg_color: #FFFFFF;
+//Pixel dimensions
+$more_general: 30px;
+$general_px: 20px;
+$small_px: 5px;
+$border_radius: 8px;
+$border: 3px;
+$font_size: 15px;
+
+
+%g_font {
+    font: $font_size $font-stack;
+}
+
+%g_border {
+    border: $border solid $g_simple_color;
+}
+
+%g_no_border {
+    border: none;
+}
+
+%g_border_radius {
+    border-radius: $border_radius;
+}
+
+%g_margin {
+    margin: $general_px $small_px $general_px $small_px;
+}
+
+%g_padding {
+    padding: $general_px $more_general $general_px $more_general;
+}
+
+.g_button_filled {
+    @extend %g_font;
+    @extend %g_margin;
+    @extend %g_padding;
+    @extend %g_border_radius;
+    @extend %g_no_border;
+
+    background-color: $g_simple_color;
+    color: $g_bg_color;
+}
+
+.g_button_empty {
+    @extend %g_font;
+    @extend %g_margin;
+    @extend %g_padding;
+    @extend %g_border_radius;
+    @extend %g_border;
+
+    background-color: $g_bg_color;
+    color: $g_simple_color;
+}
+
+.g_button_empty:active {
+    @extend %g_font;
+    @extend %g_margin;
+    @extend %g_padding;
+    @extend %g_border_radius;
+    @extend %g_border;
+
+    background-color: $g_simple_color;
+    color: $g_bg_color;
+}
+.g_button_empty:hover {
+    @extend %g_font;
+    @extend %g_margin;
+    @extend %g_padding;
+    @extend %g_border_radius;
+    @extend %g_border;
+
+    background-color: $g_simple_color;
+    color: $g_bg_color;
+}
